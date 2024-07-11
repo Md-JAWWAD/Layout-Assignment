@@ -1,0 +1,240 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+nav {
+  height: 5rem;
+  /* background-color: aquamarine; */
+  text-transform: uppercase;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  padding: 0 1rem;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  font-weight: 600;
+}
+nav li:hover{
+cursor: pointer;
+color: grey;
+}
+.nav-left {
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.nav-right {
+  border: 1px solid black;
+  background-color: transparent;
+  padding: 0.8rem 1.6rem;
+  border-radius: 20px;
+  margin-right: 2rem;
+  font-weight: 600;
+}
+
+.nav-right:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.description-down{
+  height: 8rem;
+  background-color: white;
+  padding: 10rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.description-down-flex{
+  margin-right: 3rem;
+}
+
+.description-down-flex h1{
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.description-down-flex p{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.description-top{
+  height: 5rem;
+  background-color: white;
+}
+.description{
+  display:flex;
+  align-items: center;
+  color: black;
+  justify-content:space-between;
+}
+
+.d-left{
+  padding: 2rem;
+  background-color: white;
+  margin-left: rem;
+  width: 50%;
+}
+
+.d-left p{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.d-left h1{
+  font-weight: bolder;
+  padding: 1rem 0;
+  text-transform: capitalize;
+  font-size: 5rem;
+}
+.light-p
+{
+  color: rgb(117, 114, 114);
+}
+
+.d-right img{
+  width: 36em;
+  /* margin-right: 2rem; */
+}
+
+.two-buttons{
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  margin-top: 3rem;
+}
+
+.b-button{
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  border-radius: 1.2rem;
+}
+
+.b-button:hover{
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.w-button{
+  color: black;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  border-radius: 1.2rem;
+  border: 1px solid black;
+  margin-left: 1rem;
+}
+
+.w-button:hover{
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  
+}
+
+.grid-container img{
+  width: 25rem;
+  box-shadow: 5px 5px 40px black;
+}
+
+
+.grid-container{
+  display: grid;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  /* background-color: aqua; */
+  gap: 2rem;
+  align-items:center;
+  justify-content:space-evenly;
+  margin-bottom: 4rem;
+}
+.g-one{
+  padding-left: 6rem;
+  grid-area: 1 / 1 / 3 / 4;
+}
+.g-two{
+  grid-area: 1 / 4 / 3 / 7;
+  /* background-color: blanchedalmond; */
+}
+
+.g-three{
+  padding-left: 15rem;
+  grid-area: 3 / 1 / 7 / 4;
+  /* background-color: blue; */
+}
+
+.g-four{
+  /* padding-right: 1rem; */
+  grid-area: 3 / 4 / 7 / 7;
+  /* background-color: cadetblue; */
+}
+.card-description{
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.card-title{
+  padding: 1rem 0;
+  text-transform:uppercase;
+  color: grey;
+}
+ 
+footer{
+  background-color: black;
+}
+
+.end{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  background-color: black;
+}
+
+.end ul{
+  text-decoration: none;
+  background-color: black;
+}
+
+.end ul li{
+  padding: 0.4rem;
+  background-color: black;
+  color: white;
+}
+
+.end ul li:hover{
+  cursor: pointer;
+  color: grey;
+}
+
+i{
+  background-color: black;
+}
+
+.foot-top{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
